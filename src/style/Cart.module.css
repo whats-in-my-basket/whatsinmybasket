@@ -1,0 +1,208 @@
+@media (min-width: 1024px) {
+    .wrapper {
+        margin-top: 56px;
+    }
+
+    .orderGroup {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contentWrapper {
+        margin-top: 56px;
+        padding: 0;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cardItem {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .cardInfo {
+        padding: 32px 48px;
+    }
+
+    .card {
+        width: 224px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        margin-top: 56px;
+        padding: 0 8px;
+    }
+
+    .contentWrapper {
+        margin-top: 56px;
+        padding: 0 8px;
+    }
+
+    .cardItem {
+        margin-top: 16px;
+        padding: 0 8px;
+    }
+
+    .cardInfo {
+        padding: 32px 4px;
+    }
+
+    .card {
+        min-height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        margin-top: 24px;
+        padding: 0 8px;
+    }
+
+    .order > span {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .contentWrapper {
+        margin-top: 24px;
+        padding: 0 8px;
+    }
+
+    .totalPrice > span {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+
+.wrapper {
+    color: hsl(220 13% 69% / 1);
+}
+
+.notionText {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.orderGroup {
+    margin-bottom: 80px;
+    flex-shrink: 0;
+}
+
+.order {
+    display: flex;;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.order > span {
+    display: inline-block;
+    align-self: center;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.content {
+    margin-bottom: 80px;
+}
+
+.cardItem {
+    margin-top: 16px;
+}
+
+.card {
+    display: block;
+    flex-shrink: 0;
+    padding: 16px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.cardImage {
+    object-fit: contain;
+    width: 100%;
+    height: 192px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 0.5rem;
+}
+
+.cardTitle {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+.cardPrice {
+    flex-grow: 1;
+    margin: 8px 0 16px;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.countBtnGroup {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.countBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    background-color: hsl(262 80% 50%);
+    border: 0;
+    color: hsl(220 13% 69% / 1);
+
+}
+
+.countBtn:nth-child(1) {
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    color: white;
+}
+
+.countBtn:nth-child(2) {
+    background-color: transparent;
+    font-size: 0.875rem;
+}
+
+.countBtn:nth-child(3) {
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+    color: white;
+}
+
+.totalPrice {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    flex-shrink: 0;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.totalPrice > span {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-right: 20px;
+}

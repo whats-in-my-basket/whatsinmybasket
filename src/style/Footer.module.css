@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2.5rem;
+    padding: 40px;
+    background-color: hsl(220 17% 17% / 1);
+    color: hsl(220 13% 69% / 1);
+}
+
+.zerobase {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.zerobase > a {
+    text-decoration: none;
+    color: hsl(220 13% 69% / 1);
+}
+
+.zerobase > a:hover {
+    text-decoration: underline;
+}
+
+.cardList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.snsList {
+    display: flex;
+    gap: 1rem;
+}
+
+.snsList > a {
+    position: relative;
+}
+
+.fillCurrent {
+    fill: hsl(220 13% 69% / 1);
+    z-index: 1;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.875rem;
+}
